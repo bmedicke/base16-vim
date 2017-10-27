@@ -15,9 +15,12 @@ if !has('gui_running')
 endif
 
 " GUI color definitions
-let s:gui00 = "2b2b2b"
-let s:gui01 = "272935"
-let s:gui02 = "3a4055"
+let s:gui00 = "NONE"
+let s:gui01 = "NONE"
+let s:gui02 = "NONE"
+
+let s:gui10 = "3a4055"
+
 let s:gui03 = "5a647e"
 let s:gui04 = "d4cfc9"
 let s:gui05 = "e6e1dc"
@@ -133,7 +136,7 @@ call <sid>hi("Search",        s:gui03, s:gui0A, s:cterm03, s:cterm0A,  "", "")
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("Visual",        "", s:gui02, "", s:cterm02, "", "")
+call <sid>hi("Visual",        "", s:gui10, "", s:cterm02, "", "")
 call <sid>hi("VisualNOS",     s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("WarningMsg",    s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("WildMenu",      s:gui08, s:gui0A, s:cterm08, "", "", "")
